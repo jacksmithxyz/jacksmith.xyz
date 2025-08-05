@@ -1,16 +1,59 @@
 ---
+import { getCollection } from "astro:content";
+import Hero from "../components/organisms/Hero.astro";
+import Layout from "../layouts/Layout.astro";
+import BlogCard from "../components/organisms/BlogCard.astro";
 
+const posts = await getCollection("blog");
+
+const sortedPosts = posts.sort(
+    (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout>
+    <div>
+        <Hero />
+        <div class="space-y-6 mb-8 sm:mb-16">
+            <p>
+                I’ve spent the last few years working at startups doing
+                front-end development and creating developer content. I enjoy crafting
+                <b>digital experiences</b> and I'm currently focusing on the web,
+                graphics, and game development.
+            </p>
+            <p>
+                This <a
+                    href="/blog"
+                    class="underline underline-offset-2 text-blue-500">blog</a
+                > is where I share my journey and learnings, as well as any of my
+                creative endeavours. Grab a cup of tea and get cozy, I hope you enjoy your stay. 🍵
+            </p>
+        </div>
+        <div class="mb-16">
+            <h1 class="text-2xl font-semibold mb-8">Recent posts</h1>
+            <div>
+                <ul class="space-y-16 mb-16">
+                    {
+                        sortedPosts.slice(0, 3).map((post) => (
+                            <li>
+                                <BlogCard
+                                    url={`/blog/${post.id}`}
+                                    title={post.data.title}
+                                    date={post.data.date.toLocaleDateString(
+                                        "en-GB",
+                                        {
+                                            day: "2-digit",
+                                            month: "long",
+                                            year: "numeric",
+                                        },
+                                    )}
+                                    description={post.data.description}
+                                />
+                            </li>
+                        ))
+                    }
+                </ul>
+            </div>
+        </div>
+    </div></Layout
+>
