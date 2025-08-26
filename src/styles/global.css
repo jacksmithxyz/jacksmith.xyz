@@ -2,6 +2,6 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-    --font-sans: "Spline Sans Variable", "sans-serif";
-    --font-mono: "Spline Sans Mono Variable", "monospace";
+    --font-sans: "Mona Sans Variable", "sans-serif";
+    --font-mono: "Monaspace Neon", "monospace";
 }
