@@ -67,4 +67,4 @@ Simply push changes to your GitHub repository, and Railway will automatically re
 
 I hope you found this guide helpful.
 
-If you'd prefer to create your project from a pre-configured template using Astro 5 and Tailwind 4, you can check out my template [here](https://railway.com/deploy/astro-tailwind-starter?referralCode=jackxyz&utm_medium=integration&utm_source=template&utm_campaign=generic). 
+If you'd prefer to create your project from a pre-configured template using Astro 5 and Tailwind 4, you can check out my template [here](https://railway.com/deploy/astro-tailwind-starter?referralCode=jackxyz&utm_medium=integration&utm_source=template&utm_campaign=generic).
