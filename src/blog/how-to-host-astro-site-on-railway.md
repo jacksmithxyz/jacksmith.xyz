@@ -36,7 +36,7 @@ After this you might need to refresh the page or wait a few seconds, and next ti
 
 Select your project on the screen, and click on the "Settings" tab. 
 
-From here, scroll down and switch fro Nixpacks to Railpack. 
+From here, scroll down and switch from Nixpacks to Railpack. 
 
 ![](../assets/astro-railway-guide/railpack.png)
 
