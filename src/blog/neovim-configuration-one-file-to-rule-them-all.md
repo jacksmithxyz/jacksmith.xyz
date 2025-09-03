@@ -2,7 +2,6 @@
 title: "Crafting a Single File Neovim Config"
 description: "A pragmatic approach to Neovim configuration"
 date: 2025-01-09
-image: "../assets/neovim-configuration-one-file-to-rule-them-all/cover.webp"
 ---
 
 > *One file to rule them all,*
