@@ -6,18 +6,8 @@ const blog = defineCollection({
   schema:
     z.object({
       title: z.string(),
-      description: z.string(),
       date: z.coerce.date(),
     }),
 });
 
-const devlog = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/devlog"}),
-  schema: z.object({
-    title: z.string(),
-    description: z.string(),
-    date: z.coerce.date()
-  }),
-})
-
-export const collections = { blog, devlog };
+export const collections = { blog };
