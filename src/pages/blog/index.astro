@@ -11,25 +11,16 @@ const sortedPosts = posts.sort(
 ---
 
 <Layout>
-    <h1 class="text-2xl font-semibold uppercase mb-4">Posts</h1>
-    <p class="mb-16 text-zinc-400">
+    <h1 class="text-2xl font-semibold mb-4">Posts</h1>
+    <p class="mb-8 text-zinc-400">
         My collection of blog posts on technical topics, projects, learning, and
         more.
     </p>
-    <ul class="space-y-16 mb-16">
+    <ul class="space-y-8 mb-16">
         {
             sortedPosts.map((post) => (
                 <li>
-                    <BlogCard
-                        url={`/blog/${post.id}`}
-                        title={post.data.title}
-                        date={post.data.date.toLocaleDateString("en-GB", {
-                            day: "2-digit",
-                            month: "long",
-                            year: "numeric",
-                        })}
-                        image={post.data.image}
-                    />
+                    <BlogCard url={`/blog/${post.id}`} title={post.data.title} />
                 </li>
             ))
         }
