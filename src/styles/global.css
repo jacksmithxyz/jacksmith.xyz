@@ -1,2 +1,14 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+
+body {
+    background-color: #161617;
+    color: #c9c7cd;
+    font-size: 1.125rem;
+}
+
+.container {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
