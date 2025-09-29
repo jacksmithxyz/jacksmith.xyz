@@ -1,9 +1,35 @@
-<header class="mb-10">
-    <nav
-        class="flex flex-col sm:flex-row text-zinc-400 gap-2 sm:gap-10 font-medium"
-    >
-        <a class="font-bold text-zinc-100" href="/">Jack Smith</a>
-        <a class="hover:text-zinc-200" href="/about">About</a>
-        <a class="hover:text-zinc-200" href="/blog">Posts</a>
+<header>
+    <nav>
+        <a href="/">Jack Smith</a>
+        <a href="/about">About</a>
+        <a href="/blog">Posts</a>
     </nav>
 </header>
+
+<style>
+    header {
+        margin-bottom: 2.5rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    a {
+        color: #757581;
+        font-weight: 500;
+    }
+
+    a:hover {
+        color: #9998a8;
+    }
+
+    @media screen and (max-width: 40rem) {
+        nav {
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+</style>
