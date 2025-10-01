@@ -11,18 +11,28 @@ const sortedPosts = posts.sort(
 ---
 
 <Layout>
-    <h1 class="text-2xl font-semibold mb-4">Posts</h1>
-    <p class="mb-8 text-zinc-400">
+    <h1>Posts</h1>
+    <p class="subtext">
         My collection of blog posts on technical topics, projects, learning, and
         more.
     </p>
-    <ul class="space-y-8 mb-16">
+    <ul>
         {
             sortedPosts.map((post) => (
                 <li>
-                    <BlogCard url={`/blog/${post.id}`} title={post.data.title} />
+                    <BlogCard
+                        url={`/blog/${post.id}`}
+                        title={post.data.title}
+                    />
                 </li>
             ))
         }
     </ul>
 </Layout>
+
+<style>
+    ul {
+        list-style-type: none;
+        margin-left: 0;
+    }
+</style>

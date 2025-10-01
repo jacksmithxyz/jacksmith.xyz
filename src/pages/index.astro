@@ -14,8 +14,8 @@ const sortedPosts = posts.sort(
 <Layout>
     <div>
         <Hero />
-        <div class="mb-16">
-            <h1 class="text-2xl font-semibold mb-8">Recent posts</h1>
+        <div>
+            <h1>Recent posts</h1>
             <div>
                 <ul>
                     {
@@ -24,20 +24,13 @@ const sortedPosts = posts.sort(
                                 <BlogCard
                                     url={`/blog/${post.id}`}
                                     title={post.data.title}
-                                    date={post.data.date.toLocaleDateString(
-                                        "en-GB",
-                                        {
-                                            day: "2-digit",
-                                            month: "long",
-                                            year: "numeric",
-                                        },
-                                    )}
                                 />
                             </li>
                         ))
                     }
                 </ul>
             </div>
+        </div>
     </div>
 </Layout>
 
