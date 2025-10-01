@@ -1,11 +1,12 @@
 @import "tailwindcss";
-@plugin "@tailwindcss/typography";
 
 body {
     background-color: #161617;
-    color: #c9c7cd;
+    color: white;
     font-size: 1.125rem;
     line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -27,7 +28,7 @@ h2 {
 }
 
 h3 {
-    font-szie: 1.25rem;
+    font-size: 1.25rem;
     font-weight: 700;
     margin-top: 2.875rem;
     margin-bottom: 1rem;
