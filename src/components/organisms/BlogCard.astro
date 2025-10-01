@@ -3,5 +3,20 @@ const { url, title } = Astro.props;
 ---
 
 <div>
-    <h2 class="font-medium text-xl text-blue-500 hover:text-blue-400 mb-1"><a href={url}>{title}</a></h2>
+    <h2><a href={url}>{title}</a></h2>
 </div>
+
+<style>
+    h2 {
+        font-weight: 500;
+        color: #90b9ff;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    a:hover {
+        opacity: 80%;
+    }
+</style>
