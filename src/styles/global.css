@@ -5,10 +5,19 @@ body {
     background-color: #161617;
     color: #c9c7cd;
     font-size: 1.125rem;
+    line-height: 1.65;
+}
+
+p {
+    margin-bottom: 1.875rem;
 }
 
 .container {
     max-width: 42rem;
     margin: 0 auto;
     padding: 2rem;
+}
+
+.subtext {
+    color: #757581;
 }
