@@ -16,7 +16,7 @@ const sortedPosts = posts.sort(
         My collection of blog posts on technical topics, projects, learning, and
         more.
     </p>
-    <ul>
+    <ul class="list">
         {
             sortedPosts.map((post) => (
                 <li>
@@ -29,10 +29,3 @@ const sortedPosts = posts.sort(
         }
     </ul>
 </Layout>
-
-<style>
-    ul {
-        list-style-type: none;
-        margin-left: 0;
-    }
-</style>
