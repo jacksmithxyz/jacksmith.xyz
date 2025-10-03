@@ -1,42 +1,31 @@
 ---
-import { getCollection } from "astro:content";
 import Hero from "../components/organisms/Hero.astro";
 import Layout from "../layouts/Layout.astro";
-import BlogCard from "../components/organisms/BlogCard.astro";
-
-const posts = await getCollection("blog");
-
-const sortedPosts = posts.sort(
-    (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
-);
 ---
 
 <Layout>
     <div>
         <Hero />
-        <div>
-            <h1>Recent posts</h1>
-            <div>
-                <ul>
-                    {
-                        sortedPosts.slice(0, 5).map((post) => (
-                            <li>
-                                <BlogCard
-                                    url={`/blog/${post.id}`}
-                                    title={post.data.title}
-                                />
-                            </li>
-                        ))
-                    }
-                </ul>
-            </div>
-        </div>
+        <h2>About me</h2>
+        <p>
+            Some of the things I'm interested in include the web, open source,
+            functional programming, and AI/ML. I take a passionate and pragmatic
+            approach to my work.
+        </p>
+        <h3>Some things I've done professionally</h3>
+        <ul>
+            <li>Built production web apps</li>
+            <li>Research & writing on distributed ledgers</li>
+            <li>Maintained open source developer documentation</li>
+            <li>Created tutorials for TypeScript SDKs</li>
+            <li>Built Telegram bots</li>
+            <li>Seeded RAG databases</li>
+        </ul>
+        <p>
+            For me information about me and my work, please take a look at my <a
+                href="/blog">blog</a
+            > or my <a href="https://github.com/jacksmithxyz">GitHub</a>. Enjoy
+            your stay. 🍵
+        </p>
     </div>
 </Layout>
-
-<style>
-    ul {
-        list-style-type: none;
-        margin-left: 0;
-    }
-</style>
