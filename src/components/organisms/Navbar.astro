@@ -1,8 +1,17 @@
 <header>
     <nav>
         <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/blog">Posts</a>
+        <a href="/blog">Blog</a>
+        <a
+            href="https://github.com/jacksmithxyz"
+            target="_blank"
+            rel="noopener noreferrer">GitHub</a
+        >
+        <a
+            href="https://www.linkedin.com/in/jxcksmth/"
+            target="_blank"
+            rel="noopener noreferrer">LinkedIn</a
+        >
     </nav>
 </header>
 
@@ -18,12 +27,26 @@
     }
 
     a {
-        color: #757581;
         font-weight: 500;
     }
 
-    a:hover {
-        color: #9998a8;
+    .header-group {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .header-text {
+        color: white;
+        text-decoration: none;
+        margin-bottom: 0rem;
+    }
+
+    .pfp {
+        width: 64px;
+        height: 64px;
+        border-radius: 9999px;
     }
 
     @media screen and (max-width: 40rem) {
