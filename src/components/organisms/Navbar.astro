@@ -1,17 +1,17 @@
 <header>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/blog">Blog</a>
-        <a
-            href="https://github.com/jacksmithxyz"
-            target="_blank"
-            rel="noopener noreferrer">GitHub</a
-        >
-        <a
-            href="https://youtube.com/@jacksmithxyz"
-            target="_blank"
-            rel="noopener noreferrer">YouTube</a
-        >
+    <nav class="flex items-center justify-between">
+        <div class="flex items-center gap-2">
+            <img class="w-8 h-8 rounded-full" src="/pfp.png" />
+            <a
+                class="font-medium text-neutral-200 hover:text-neutral-50"
+                href="/">Jack Smith</a
+            >
+        </div>
+        <div class="flex gap-6">
+            <a href="/blog">Posts</a>
+            <a href="/now">Now</a>
+            <a href="/uses">Uses</a>
+        </div>
     </nav>
 </header>
 
@@ -30,29 +30,10 @@
         font-weight: 500;
     }
 
-    .header-group {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    .header-text {
-        color: white;
-        text-decoration: none;
-        margin-bottom: 0rem;
-    }
-
-    .pfp {
-        width: 64px;
-        height: 64px;
-        border-radius: 9999px;
-    }
-
     @media screen and (max-width: 40rem) {
         nav {
             flex-direction: column;
-            gap: 0.5rem;
+            gap: 1rem;
         }
     }
 </style>
