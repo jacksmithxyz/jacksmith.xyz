@@ -1,34 +1,4 @@
-:root {
-    font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        avenir next,
-        avenir,
-        segoe ui,
-        helvetica neue,
-        Adwaita Sans,
-        Cantarell,
-        Ubuntu,
-        roboto,
-        noto,
-        helvetica,
-        arial,
-        sans-serif;
-}
-
-body {
-    background-color: #161617;
-    color: white;
-    font-size: 1.125rem;
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-    color: #326cfd;
-    text-decoration: underline;
-}
+@import 'tailwindcss';
 
 h1 {
     font-size: 1.875rem;
