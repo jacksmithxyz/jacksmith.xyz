@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 h1 {
     font-size: 1.875rem;
@@ -24,12 +24,9 @@ p {
     margin-bottom: 1.875rem;
 }
 
-p code {
-    color: #e29eca;
-}
-
 code {
     font-family:
+        "Monaspace Argon",
         Menlo,
         Consolas,
         Monaco,
@@ -37,10 +34,10 @@ code {
         Liberation Mono,
         Lucida Console,
         monospace;
-    font-size: 0.875rem;
 }
 
 pre {
+    font-size: 1rem;
     padding: 0.5rem;
     border-radius: 5px;
     margin-bottom: 2rem;
