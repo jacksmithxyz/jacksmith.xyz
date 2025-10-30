@@ -54,19 +54,19 @@ This is the process I would usually take browsing the web, but you can’t reall
 
 Here’s some general advice which might help you on your independent learning journey.
 
-#### Become a masochist
+### Become a masochist
 
 If you’re learning about something complex or brand new to you, it’s likely going to be difficult. In some cases it’s very difficult, and the sources out there might not be up to scratch.
 
 Sometimes you will not have fun. You will want to pull your hair out, or smash your head into the desk. Persist. You will get there.
 
-#### Ask a lot of questions
+### Ask a lot of questions
 
 One of the best ways to check your understanding (in my opinion) is to ask a lot of questions. Ask “what if I did x instead of y?” questions, speak to people on forums, Discord, whatever, and if there’s something that doesn’t make sense to you ask a question about it. It will give you a clearer picture of the topic or concept you’re learning about.
 
 The tricky part is knowing which questions to ask, and how to ask them. This comes with practice. The goal is to ask questions in such a way so that you can learn effectively, as opposed to letting others do your thinking for you.
 
-#### Remove the ego
+### Remove the ego
 
 This is very much tied to the point above, and also one of the hardest things for me.
 
@@ -74,25 +74,25 @@ When learning something new, you don’t know anything about it. You’re likely
 
 Or even worse than this, don’t stop yourself from learning because it feels out of your comfort zone or “why would I even bother learning X?”.
 
-#### Write about what you learn
+### Write about what you learn
 
 I have real skin in the game here, with an entire blog basically doing this.
 
 I will say it’s not for everybody, and I know not everyone wants a blog or to be a writer. But consider this just another tip or thought you can use, even if you want to just write privately.
 
-#### Tame the abstraction creature
+### Tame the abstraction creature
 
 As technology gets more and more complex, the less we understand about the substrate we are building upon. I’m guilty of this myself, and have done plenty of “glue engineering”.
 
 This kind of recursive approach to learning and “going down the stack” fits very well with self-learning, as you might imagine, and is usually a good place to start.
 
-#### Get a gut feeling for good resources
+### Get a gut feeling for good resources
 
 Search isn’t what it used to be. You will likely have to sift through a lot of content to find good and bad resources. I’ve found that you can start to distinguish what constitutes a “good” resource vs a “bad” resource to yourself as time goes by.
 
 Of course, you can look for recommendations for good resources from people as well.
 
-#### Trust, but verify
+### Trust, but verify
 I find this proverb quite useful when learning a new topic or concept.
 
 I “trust” the information given be a resource at face value, but I still verify it by looking at many different resources, even just skim-reading them. I rarely use a single source.
