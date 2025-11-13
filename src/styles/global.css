@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-body {
-    font-family: "Source Sans Pro";
-}
-
 h1, h2, h3 {
     font-weight: 700;
     margin-bottom: 1rem;
@@ -25,18 +21,6 @@ h3 {
 
 p {
     margin-bottom: 1.875rem;
-}
-
-code {
-    font-family:
-        "Monaspace Argon",
-        Menlo,
-        Consolas,
-        Monaco,
-        Adwaita Mono,
-        Liberation Mono,
-        Lucida Console,
-        monospace;
 }
 
 pre {
