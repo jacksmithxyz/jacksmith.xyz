@@ -25,32 +25,36 @@ The TLDR is that I like to learn new things. I want to do work where learning ne
 
 So, what to do?
 
-## Insert learning PHP/Elixir/Ruby/other non-JS framework here
-
-The logical step might be to seek out a different style of web programming - one that at least isn't as heavily reliant on JavaScript/TypeScript (on the backend, at least).
-
-Some of the domain problems will likely remain the same, but that's maybe okay. But they also limit me I think to a specific domain, and don't feel very different.
-
-So, I've decided on one programming language and ecosystem in particular to explore.
-
-## Venturing into something new: Rust
+## Venturing into something new 🧪
 
 ![](../assets/venturing-out-of-platos-cave/meme.jpeg)
 
-Maybe this will age like milk, but my opinion is that I think Rust is likely going to be one of the biggest programming languages of the next era.
+I previously wrote in this blog post that I didn't want to explore another web framework. 
 
-It ticks a lot of my boxes, in the sense:
-- It's a nerdsnipe with lots of new concepts to learn
-- It has a rapidly maturing ecosystem
-- It has a strong presence in the web ecosystem (backend frameworks, WASM, etc)
-- It leaves room for growth and opportunities to build other things (e.g. developer tooling)
+I was wrong. 
 
-I could explore systems programming or other similar areas, and I'm an avid enjoyer of unix and the command line.
+The web is by far my favourite platform to develop for.
 
-But the keyword here is **user**. I have a lot of respect for systems programmers and whatnot, but I think for me I've always been more focused on building things for users, developers, etc.
+The programming language, and the ecosystem I've settled on, is Elixir. 
+
+One of the main reasons I've decided on Elixir is the fact that I've had some experience reading Erlang codebases, and learning about the BEAM VM and the Actor Model. I personally find it a very interesting piece of technology that nerdsniped me (and continues to do so). 
+
+In addition to this, there is a big set of web tooling with Phoenix - and it looks like I can do everything in Elixir and HTML (well, hEEx), which seems nice.
+
+Outside of this there's Nx for AI/ML and also Livebook to play around with too. Even Nerves for embedded if I ever get round to that, too. 
+
+And, if I ever manage to beat the hurdle of learning about the borrow checker, there's also NIFs and Rust.
+
+## Being honest with myself
+
+I have tried (and failed) multiple times to pivot into systems programming. 
+
+Don't get me wrong, there are fascinating aspects to it. I'm an avid enjoyer of Unix and the command line. 
+
+But the keyword here is **user**. I have a lot of respect for systems programmers and whatnot, but I think for me I've always been more interested in the web, and research engineering in Python. 
 
 ## Conclusion and final thoughts
 
-Really I want to do good work, build interesting and cool software, write about it, and use any combination of these skills to make it as an indie. This is a lot to ask for, I'm aware, but hey, you gotta try and do things.
+Really I want to do good work, build interesting and cool software, write about it, and use any combination of these skills to make an income. This is a lot to ask for, I'm aware, but hey, you gotta try and do things.
 
 Thanks for reading!
