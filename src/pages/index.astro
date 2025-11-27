@@ -4,28 +4,20 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout>
     <div>
-        <div>
-            <h1 class="text-3xl font-bold text-stone-100">Hi, I'm Jack 👋</h1>
-            <p>I am an independent programmer and writer from the UK.</p>
+        <div class="hero">
+            <div>
+                <img src="/pfp.png" />
+            </div>
+            <div>
+            <h1>Hi, I'm Jack 👋</h1>
             <p>
-            Currently I'm building web projects, and working with/writing
-            about distributed systems, crypto, and developer tooling.
+                Welcome to my personal website. I am a self-taught developer interested in crafting quality software and writing.
+                Currently I'm focused on developer tooling, backend systems, and open source.
             </p>
-            <p>
-            I'm also exploring Elixir, WebAssembly, and VMs.
-            </p>
+            </div>
         </div>
-        <h3>Some things I've done professionally</h3>
-        <ul class="list-disc ml-5">
-            <li>Built production-grade web applications</li>
-            <li>Public writing on distributed ledger technology</li>
-            <li>Maintained open source developer documentation</li>
-            <li>Created tutorials for TypeScript SDKs</li>
-            <li>Built Telegram bots</li>
-        </ul>
         <p>
-            For me information about me and my work, feel free to reach out to
-            me via <a href="mailto:jacksmithxyz@protonmail.com">email</a>, or
+            For more information about me and my work, feel free to reach out via <a href="mailto:jacksmithxyz@protonmail.com">email</a>, or
             take a look at my <a href="https://github.com/jacksmithxyz"
                 >GitHub</a
             >.
@@ -33,3 +25,32 @@ import Layout from "../layouts/Layout.astro";
         <p>Enjoy your stay. 🍵</p>
     </div>
 </Layout>
+
+<style>
+    .hero {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 2rem;
+    }
+
+    h1 {
+        letter-spacing: -0.015em;
+    }
+
+    img {
+        width: 350px;
+        height: auto;
+        border-radius: 9999px;
+    }
+
+
+    @media screen and (max-width: 40rem) {
+        .hero {
+            flex-direction: column;
+        }
+
+        img {
+            width: 150px;
+        }
+    }
+</style>
