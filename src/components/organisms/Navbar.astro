@@ -1,23 +1,29 @@
-<header class="mb-10">
-    <nav class="flex flex-col gap-4">
-        <div class="flex items-center gap-2">
-            <img class="w-8 h-8 rounded-full" src="/pfp.png" />
-            <a
-                class="font-medium text-neutral-200 hover:text-neutral-50"
-                href="/">Jack Smith</a
-            >
-        </div>
-        <div class="flex gap-8">
-        <a class="text-stone-300 hover:text-stone-100" href="/">Home</a>
-        <a class="text-stone-300 hover:text-stone-100" href="/blog">Posts</a>
-        <a class="text-stone-300 hover:text-stone-100" href="/projects">Projects</a>
+<header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/blog">Posts</a>
+        <a href="/projects">Projects</a>
         </div>
     </nav>
 </header>
 
 <style>
+    header {
+        margin-bottom: 2.5rem;
+    }
+
+    nav {
+        display: flex; 
+        justify-items: center;
+        gap: 2rem;
+    }
+
     a {
         font-weight: 500;
+    }
+
+    a:hover {
+        opacity: 90%;
     }
 
     @media screen and (max-width: 40rem) {
