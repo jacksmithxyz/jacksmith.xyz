@@ -13,10 +13,18 @@ import Footer from "../components/organisms/Footer.astro";
         <title>Jack Smith</title>
     </head>
     <body>
-        <div class="max-w-3xl mx-auto p-8">
+        <div>
             <Navbar />
             <slot />
             <Footer />
         </div>
     </body>
 </html>
+
+<style>
+    div {
+        max-width: 48rem;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+</style>
