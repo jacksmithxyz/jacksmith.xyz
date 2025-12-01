@@ -11,7 +11,7 @@ In this post I'll explain how to get an Astro website hosted on Railway, with a 
 
 Quick disclaimers and shameless plug:
 
-*I'm not sponsored by Railway, I just really like their product. My referral code is `jackxyz` if you do decide to sign up.*
+*I'm not sponsored by Railway, I just really like their product. My referral code is `jacksmithxyz` if you do decide to sign up.*
 
 ### Prerequisites
 
