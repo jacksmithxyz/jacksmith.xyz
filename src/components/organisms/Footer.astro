@@ -5,8 +5,9 @@ import YouTubeIcon from "../atoms/YouTubeIcon.astro";
 ---
 
 <footer>
+    <div class="container">
     <p class="subtext">&copy; Jack Smith 2025.</p>
-    <div>
+    <div class="footer-links">
         <a href="mailto:jacksmithxyz@protonmail.com"><EmailIcon /></a>
         <a
             target="_blank"
@@ -23,21 +24,24 @@ import YouTubeIcon from "../atoms/YouTubeIcon.astro";
             <YouTubeIcon />
         </a>
     </div>
+    </div>
 </footer>
 
 <style>
-    footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
     p {
         margin-bottom: 1rem;
     }
 
-    div {
+    .footer-links {
         display: flex;
         gap: 1rem;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 42rem;
+        margin: 0 auto;
     }
 </style>
