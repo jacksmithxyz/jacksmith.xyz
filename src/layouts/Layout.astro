@@ -18,14 +18,16 @@ import "@fontsource-variable/inter";
     <body>
         <div>
             <Navbar />
-            <slot />
+            <main>
+                <slot />
+            </main>
             <Footer />
         </div>
     </body>
 </html>
 
 <style>
-    div {
+    main {
         max-width: 42rem;
         margin: 0 auto;
         padding: 2rem;
