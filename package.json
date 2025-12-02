@@ -13,7 +13,6 @@
     "@fontsource/monaspace-argon": "^5.2.5",
     "@fontsource/monaspace-neon": "^5.2.5",
     "@tailwindcss/vite": "^4.1.14",
-    "astro": "^5.12.0",
-    "tailwindcss": "^4.1.14"
+    "astro": "^5.12.0"
   }
 }
