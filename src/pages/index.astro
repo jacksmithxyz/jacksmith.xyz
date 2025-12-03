@@ -1,16 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Hero from "../components/organisms/Hero.astro";
 ---
 
 <Layout>
-        <section class="hero">
-                <h1>Hi, I'm Jack 👋</h1>
-                <h2 class="subtext subheading">Welcome to my personal website. I am a software engineer from the UK.</h2>
-                <p>
-                    I'm interested in the web, backend systems, and developer tools. I have worked heavily in 
-                    the crypto industry, but I also enjoy general systems engineering.
-                </p>
-        </section>
+    <Hero />
         <section>
         <p>
             For more information about me and my work, feel free to reach out via <a href="mailto:jacksmithxyz@protonmail.com">email</a>, or
@@ -21,23 +15,3 @@ import Layout from "../layouts/Layout.astro";
                 <p>Enjoy your stay. 🍵</p>
         </section>
 </Layout>
-
-<style>
-    .hero h1 {
-        font-size: 2.5rem;
-        letter-spacing: -0.025em;
-    }
-
-    .subheading {
-        font-size: 1.5rem;
-        font-weight: 400;
-        letter-spacing: -0.025em;
-        margin-top: 0;
-        margin-bottom: 2rem;
-    }
-
-    h1 {
-        margin-bottom: 0.5rem;
-
-    }
-</style>
