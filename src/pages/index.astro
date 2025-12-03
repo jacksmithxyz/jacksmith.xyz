@@ -3,25 +3,23 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-    <div>
-        <div class="hero">
-            <div>
+        <section class="hero">
                 <h1>Hi, I'm Jack 👋</h1>
                 <h2 class="subtext subheading">Welcome to my personal website. I am a software engineer from the UK.</h2>
                 <p>
                     I'm interested in the web, backend systems, and developer tools. I have worked heavily in 
                     the crypto industry, but I also enjoy general systems engineering.
                 </p>
-            </div>
-        </div>
+        </section>
+        <section>
         <p>
             For more information about me and my work, feel free to reach out via <a href="mailto:jacksmithxyz@protonmail.com">email</a>, or
             take a look at my <a href="https://github.com/jacksmithxyz"
                 >GitHub</a
             >.
         </p>
-        <p>Enjoy your stay. 🍵</p>
-    </div>
+                <p>Enjoy your stay. 🍵</p>
+        </section>
 </Layout>
 
 <style>
@@ -35,7 +33,7 @@ import Layout from "../layouts/Layout.astro";
         font-weight: 400;
         letter-spacing: -0.025em;
         margin-top: 0;
-        margin-bottom: 2.5rem;
+        margin-bottom: 2rem;
     }
 
     h1 {
