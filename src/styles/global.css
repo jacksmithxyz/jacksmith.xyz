@@ -77,7 +77,7 @@ article ul {
 
 p code {
     color: #e35e54;
-    background-color: #161617;
+    background-color: transparent;
     padding: 0.25rem;
     border-radius: 5px;
 }
