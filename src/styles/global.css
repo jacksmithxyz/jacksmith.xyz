@@ -59,6 +59,7 @@ blockquote {
     border-left-style: solid;
     border-left-width: 2px;
     color: #757581;
+    margin: 0;
 }
 
 blockquote p {
