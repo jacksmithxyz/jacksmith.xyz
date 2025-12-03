@@ -11,6 +11,11 @@ export default defineConfig({
                 cssVariable: "--font-inter",
                 weights: [400, 500, 700],
                 styles: ["normal", "italic"]
+            },
+            {
+                provider: fontProviders.fontsource(),
+                name: "Monaspace Neon",
+                cssVariable: "--font-monaspace-neon"
             }
         ]
     }
