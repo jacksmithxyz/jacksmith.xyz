@@ -20,10 +20,11 @@ const sortedPosts = posts.sort(
         <ul>
             {
                 sortedPosts.map((post) => (
-                    <li>
+                    <li class="mb-4">
                         <BlogCard
                             url={`/blog/${post.id}`}
                             title={post.data.title}
+                            date={post.data.date}
                         />
                     </li>
                 ))
@@ -31,14 +32,3 @@ const sortedPosts = posts.sort(
         </ul>
     </div>
 </Layout>
-
-<style>
-    div {
-        margin-bottom: 4rem;
-    }
-
-    ul {
-        list-style-type: none;
-        margin-left: -2.5rem;
-    }
-</style>
