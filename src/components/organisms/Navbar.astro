@@ -1,6 +1,6 @@
 <header>
     <nav>
-        <a class="wordmark" href="/">Jack Smith</a>
+        <a class="wordmark" href="/">jacksmith.xyz</a>
         <div>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -14,7 +14,7 @@
 
 <style>
     header {
-        padding: 1rem 0;
+        padding: 1rem;
     }
 
     nav {
@@ -26,12 +26,15 @@
     }
 
     a {
-        font-weight: 500;
+        color: #a2a2a2;
         text-decoration: none;
-        color: grey;
     }
 
+    
     ul {
+        font-family: var(--font-monaspace-neon);
+        text-transform: uppercase;
+        font-size: 0.875rem;
         list-style-type: none;
         display: flex;
         gap: 2rem;
@@ -39,14 +42,21 @@
         padding: 0;
     }
 
+    ul a:hover {
+        text-decoration: underline;
+    }
+
     .wordmark {
-        font-size: 1.25rem;
+        font-family: var(--font-monaspace-neon);
+        text-transform: uppercase;
+        font-size: 0.875rem;
         color: white;
     }
 
     @media screen and (max-width: 40rem) {
         nav {
             flex-direction: column;
+            align-items: start;
             gap: 1rem;
         }
     }
