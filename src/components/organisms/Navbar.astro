@@ -1,54 +1,20 @@
-<header>
-    <nav>
-        <a class="wordmark" href="/">jacksmith.xyz</a>
-        <ul>
-            <li><a href="/">home</a></li>
-            <li><a href="/blog">posts</a></li>
-            <li><a href="/projects">projects</a></li>
+<header class="max-w-2xl mx-auto p-4">
+    <nav class="flex justify-between items-center">
+        <a href="/">jacksmith.xyz</a>
+        <ul class="flex gap-4 sm:gap-8">
+            <li>
+                <a class="text-neutral-400 hover:underline" href="/">home</a>
+            </li>
+            <li>
+                <a class="text-neutral-400 hover:underline" href="/blog"
+                    >posts</a
+                >
+            </li>
+            <li>
+                <a class="text-neutral-400 hover:underline" href="/projects"
+                    >projects</a
+                >
+            </li>
         </ul>
     </nav>
 </header>
-
-<style>
-    header {
-        padding: 1rem;
-    }
-
-    nav {
-        display: flex; 
-        justify-content: space-between;
-        align-items: center;
-        max-width: 42rem;
-        margin: 0 auto;
-    }
-
-    a {
-        color: #a2a2a2;
-        text-decoration: none;
-    }
-
-    
-    ul {
-        list-style-type: none;
-        display: flex;
-        gap: 2rem;
-        margin: 0;
-        padding: 0;
-    }
-
-    ul a:hover {
-        text-decoration: underline;
-    }
-
-    .wordmark {
-        color: white;
-    }
-
-    @media screen and (max-width: 40rem) {
-        nav {
-            flex-direction: column;
-            align-items: start;
-            gap: 1rem;
-        }
-    }
-</style>
