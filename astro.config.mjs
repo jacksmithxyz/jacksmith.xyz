@@ -1,24 +1,36 @@
 // @ts-check
 import { defineConfig, fontProviders } from "astro/config";
 
+import tailwindcss from "@tailwindcss/vite";
+
 // https://astro.build/config
 export default defineConfig({
-    experimental: {
-        fonts: [
-            {
-                provider: fontProviders.fontsource(),
-                name: "Inter",
-                cssVariable: "--font-inter",
-                weights: [400, 500, 700],
-                styles: ["normal", "italic"]
-            },
-            {
-                provider: fontProviders.fontsource(),
-                name: "Monaspace Neon",
-                cssVariable: "--font-monaspace-neon",
-                weights: [400, 500, 700],
-                styles: ["normal", "italic"]
-            }
-        ]
-    }
+  experimental: {
+    fonts: [
+      {
+        provider: fontProviders.fontsource(),
+        name: "Inter",
+        cssVariable: "--font-inter",
+        weights: [400, 500, 700],
+        styles: ["normal", "italic"],
+      },
+      {
+        provider: fontProviders.fontsource(),
+        name: "Monaspace Neon",
+        cssVariable: "--font-monaspace-neon",
+        weights: [400, 500, 700],
+        styles: ["normal", "italic"],
+      },
+      {
+        provider: fontProviders.fontsource(),
+        name: "Atkinson Hyperlegible Next",
+        cssVariable: "--font-atkinson-hyperlegible-next",
+        weights: [400, 500, 700],
+        styles: ["normal", "italic"],
+      },
+    ],
+  },
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });
