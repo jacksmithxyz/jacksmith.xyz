@@ -10,14 +10,6 @@ body {
     font-family: var(--font-inter), sans-serif;
 }
 
-h2 {
-    font-size: 1.25rem;
-}
-
-h3 {
-    font-size: 1.125rem;
-}
-
 p {
     margin-bottom: 2.5rem;
 }
