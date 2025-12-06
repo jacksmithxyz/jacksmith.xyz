@@ -4,8 +4,10 @@ const { url, title, date } = Astro.props;
 
 <div class="flex justify-between items-center">
     <h2>
-        <a class="hover:opacity-80 text-neutral-50 underline" href={url}
-            >{title}</a>
+        <a
+            class="hover:opacity-80 text-neutral-50 underline underline-offset-2"
+            href={url}>{title}</a
+        >
     </h2>
     <span class="text-sm font-mono text-neutral-400"
         >{date.toLocaleDateString()}</span
